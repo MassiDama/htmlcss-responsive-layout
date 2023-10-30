@@ -1,0 +1,93 @@
+/* stili generali pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* stili mobile first */
+
+/* stili sezione header */
+header {
+    height: 100px;
+    background-color: #0084fd;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu-burger i {
+    color: white;
+    font-size: 30px;
+}
+
+/* stili sezione main */
+
+/* stili primo container */
+.container {
+    width: 100%;
+    
+    padding: 70px 50px 100px;
+}
+
+#demo {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+#demo img {
+    width: 300px;  
+    margin-top: 30px; 
+}
+
+.button a {
+    border-radius: 50px;
+    background-color: #0084fd;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: white;
+}
+
+#apple {
+    font-size: 20px;
+    color: white;
+}
+
+.item {
+    background-color: #b5ddff;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.item h2 {
+    color: #0084fd;
+    padding-bottom: 30px;
+}
+
+.item i {
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: #0084fd;
+}
+
+.item p {
+    color: #657b8f;
+    padding-bottom: 30px;
+}
+
+
+
