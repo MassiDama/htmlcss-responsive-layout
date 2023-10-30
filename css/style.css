@@ -37,13 +37,13 @@ header {
 /* stili primo container */
 .container {
     width: 100%;
-    
     padding: 70px 50px 100px;
 }
 
 #demo {
     text-align: left;
     padding-bottom: 0;
+    width: 100%;
 }
 
 #demo img {
@@ -70,6 +70,7 @@ header {
     padding: 30px;
     margin-bottom: 30px;
     text-align: center;
+    width: 100%;
 
 }
 
@@ -89,5 +90,32 @@ header {
     padding-bottom: 30px;
 }
 
+
+
+
+
+/* versione tablet */
+@media all and (min-width: 481px){
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #demo {
+        width: 65%;
+        
+    }
+
+    .item {
+        width: 30%;
+        
+    }    
+}
+
+
+
+
+/* versione desktop */
 
 
