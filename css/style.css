@@ -238,6 +238,42 @@ header {
     margin: 30px 0;
 }
 
+/* struttura info */
+.info-content h1 {
+    color: #9792e4;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.info-content p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.img-info {
+    width: 200px;
+    height: 200px;
+}
+
+.img-info img {
+    width: 100%;
+}
+
+.linkedin h2 {
+    color: #9792e4;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.linkedin a {
+    border-radius: 50px;
+    background-color: #9792e4;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+}
+
 
 
 
