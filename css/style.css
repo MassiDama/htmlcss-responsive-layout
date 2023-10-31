@@ -44,7 +44,6 @@ header {
 #demo {
     text-align: left;
     padding-bottom: 0;
-    width: 100%;
 }
 
 #demo img {
@@ -56,7 +55,7 @@ header {
 .button a {
     border-radius: 50px;
     background-color: #0084fd;
-    padding: 10px 80px;
+    padding: 10px 50px;
     text-decoration: none;
     color: white;
 }
@@ -154,16 +153,18 @@ header {
     .container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     #demo {
-        width: 65%;
+        width: calc((100% / 3) *2);
+
         
     }
 
     .item {
-        width: 30%;
+        width: calc((100% / 3) -100px);
+        margin-right: 20px;
         
     }    
 }
