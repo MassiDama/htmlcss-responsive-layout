@@ -159,17 +159,22 @@ header {
     padding-top: 30px;
 }
 
+.content-card {
+    padding: 20px;
+}
+
 .card {
     background-color:  #9792e4;
     margin-bottom: 30px;
     border-radius: 50px;
-    height: 500px;
+    width: 100%;
 }
 
 .card img {
     width: 100%;
     border-radius: 160px;
     padding: 40px 40px 0;
+    height: 100%;
 }
 
 .card p {
@@ -185,7 +190,48 @@ header {
     font-weight: bold; 
 }
 
+/* struttura benefits */
+.benefit-section {
+    text-align: center;
+}
 
+.viola h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.benefits {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    text-align: left;
+    padding: 30px;
+}
+
+.benefits span {
+    font-size: 50px;
+    color:  #9792e4;
+}
+
+.benefits h2 {
+    font-size: 25px;
+    color:  #9792e4;
+    padding: 30px 0;
+}
+
+.benefits p {
+    margin-bottom: 30px;
+}
+
+.violet {
+    border-radius: 50px;
+    background-color: #9792e4;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+}
 
 
 
@@ -230,7 +276,25 @@ header {
         width: calc((100% / 3) - 20px);
         margin-right: 20px;
         
-    }    
+    } 
+    
+    /* stili testimonials */
+    .card {
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* stili benefits */
+    .benefit-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits {
+        width: calc((100% / 2) - 20px);
+        margin-right: 20px;
+    }
 }
 
 
@@ -252,12 +316,7 @@ header {
     }
 
     #demo {
-       
         display: flex;
-    }
-
-    .item {
-        min-height: 350px; 
     }
 
     /* sezione strategic */
@@ -269,6 +328,12 @@ header {
 
     .app {
         margin-left: 50px;
+    }
+
+    /* stili benefits */
+    .benefits {
+        width: calc((100% / 3) - 20px);
+        
     }
 
 
