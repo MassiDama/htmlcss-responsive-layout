@@ -35,7 +35,7 @@ header {
 
 /* stili sezione main */
 
-/* stili primo container */
+/* stili demo-item */
 .container {
     width: 100%;
     padding: 50px 50px 100px;
@@ -91,7 +91,7 @@ header {
     padding-bottom: 30px;
 }
 
-/* stili strategic section */
+/* stili strategic */
 .viola {
     background-color:  #9792e4;
 }
@@ -143,7 +143,7 @@ header {
     padding: 10px;
 }
 
-/* struttra testimonial */
+/* stili testimonial */
 .testimonials {
     text-align: center;
 }
@@ -172,9 +172,14 @@ header {
 
 .card img {
     width: 100%;
-    border-radius: 160px;
-    padding: 40px 40px 0;
     height: 100%;
+    border-radius: 50%;
+    padding: 40px 40px 0;
+}
+
+.img-testimonial {
+    width: 200px;
+    height: 200px;
 }
 
 .card p {
@@ -190,7 +195,7 @@ header {
     font-weight: bold; 
 }
 
-/* struttura benefits */
+/* stili benefits */
 .benefit-section {
     text-align: center;
 }
@@ -259,23 +264,19 @@ header {
 /* versione tablet */
 @media all and (min-width: 481px){
    
-   /* sezione primo container */
+   /* stili demo-item */
     .container {
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
     }
 
     #demo {
-        width: calc(((100% / 3) - 20px) *2);
-
-        
+        width: calc(((100% / 3)*2) - 20px);   
     }
 
     .item {
         width: calc((100% / 3) - 20px);
-        margin-right: 20px;
-        
+        margin-right: 20px;   
     } 
     
     /* stili testimonials */
@@ -306,8 +307,7 @@ header {
     header {
         width: 100%;
         margin: 0 auto;
-        padding: 0 200px;
-        
+        padding: 0 200px;  
     }
     
     /* sezione primo container */
@@ -332,8 +332,7 @@ header {
 
     /* stili benefits */
     .benefits {
-        width: calc((100% / 3) - 20px);
-        
+        width: calc((100% / 3) - 20px); 
     }
 
 
