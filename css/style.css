@@ -96,18 +96,18 @@ header {
     background-color:  #9792e4;
 }
 
-.strategic {
+.planning {
     color: white;
     margin-bottom: 100px;
 }
 
-.strategic h1 {
+.planning h1 {
     font-size: 40px;
     padding-bottom: 50px;
 }
 
 
-.strategic img {
+.planning img {
     width: 100%;
     padding-bottom: 100px;
 } 
@@ -115,10 +115,11 @@ header {
 /* div app */
 .app {
     background-color: white;
-    border-radius: 70px;
+    border-radius: 50px;
     padding: 30px 30px 0;
     padding-bottom: 30px;
     text-align: center;
+    height: max-content;
 }
 
 .app img{
@@ -142,6 +143,69 @@ header {
     padding: 10px;
 }
 
+/* struttra testimonial */
+.testimonials {
+    text-align: center;
+}
+
+.testimonials span, .testimonials p {
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+.testimonials h1 {
+    font-size: 35px;
+    color: #9792e4;
+    padding-top: 30px;
+}
+
+.card {
+    background-color:  #9792e4;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    height: 500px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 160px;
+    padding: 40px 40px 0;
+}
+
+.card p {
+    color: white;
+    padding: 20px 0 30px 0;
+    font-size: 20px;
+}
+
+
+.card span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,13 +221,13 @@ header {
     }
 
     #demo {
-        width: calc((100% / 3) *2);
+        width: calc(((100% / 3) - 20px) *2);
 
         
     }
 
     .item {
-        width: calc((100% / 3) -100px);
+        width: calc((100% / 3) - 20px);
         margin-right: 20px;
         
     }    
@@ -193,10 +257,20 @@ header {
     }
 
     .item {
-        min-height: 350px;
+        min-height: 350px; 
     }
 
-    
+    /* sezione strategic */
+    .strategic {
+        display: flex;
+        justify-content:;
+        align-items: flex-end;
+    }
+
+    .app {
+        margin-left: 50px;
+    }
+
 
 }
 
