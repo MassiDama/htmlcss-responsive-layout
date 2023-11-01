@@ -261,7 +261,7 @@ header {
 
 .linkedin h2 {
     color: #9792e4;
-    font-size: 35px;
+    font-size: 30px;
     margin: 20px 0;
 }
 
@@ -274,9 +274,53 @@ header {
     margin: 30px 0;
 }
 
+/* stili get started */
+.get-started {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
 
+.get-started h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
 
+.get-started h1 {
+    color: hsl(37.2, 97.5%, 68.2%);
+    font-size: 50px;
+    margin: 30px 0;
+}
 
+.get-started p {
+    margin-bottom: 30px;
+
+}
+.get-started button{
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px 80px;
+    text-decoration: none;
+    color: #9792e4;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.get-started span:first-child {
+    font-size: 20px;
+    filter: opacity(0.5);
+    
+}
+
+.get-started span:last-child {
+    color: white;
+    font-size: 14px;
+
+}
+
+.get-started a {
+    color: white;
+}
 
 
 
@@ -331,6 +375,20 @@ header {
     .benefits {
         width: calc((100% / 2) - 20px);
         margin-right: 20px;
+    }
+
+    /* stili info-main */
+    .info-main {
+        display: flex;
+    }
+
+    .info-content {
+        width: 60%;
+        margin-right: 40px;
+    }
+
+    .linkedin {
+        width: 40%;
     }
 }
 
