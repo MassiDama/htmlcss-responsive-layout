@@ -33,6 +33,24 @@ header {
     font-size: 30px;
 }
 
+/* stili menu */
+.menu {
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.menu button {
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 10px;
+    color: black;
+}
+
 /* stili sezione main */
 
 /* stili demo-item */
@@ -322,26 +340,29 @@ header {
     color: white;
 }
 
+/* stili footer */
+.nero {
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
 
 
 
+.nero p:first-child {
+    margin-bottom: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.nero a {
+    color: #7470a7;
+}
 
 
 
 /* versione tablet */
+
+
 @media all and (min-width: 481px){
    
    /* stili demo-item */
@@ -396,12 +417,22 @@ header {
 
 
 /* versione desktop */
+
+
 @media all and (min-width: 768px) {
 
     header {
         width: 100%;
         margin: 0 auto;
         padding: 0 200px;  
+    }
+
+    .menu-burger {
+        display: none;
+    }
+
+    .menu {
+        display: block;
     }
     
     /* sezione primo container */
@@ -428,8 +459,6 @@ header {
     .benefits {
         width: calc((100% / 3) - 20px); 
     }
-
-
 }
 
 
